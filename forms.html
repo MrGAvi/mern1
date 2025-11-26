@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>This is the example of form</h2>
+    <form action="/contact.html" method="post">
+        <label for="fname">Full Name:</label>
+        <input type="text" id="fname" name="username" placeholder="Full name"/>
+        
+        <label for="lname">Email:</label>
+        <input type="email" id="lname" name="email" placeholder="enter email"/>
+
+        <label for="phoneno">Phone:</label>
+        <input type="number" id="phoneno" name="number" placeholder="phone number"/>
+    
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="password"/>
+
+        <h4>Select Subjects</h4>
+        <label for="subject">Math</label>
+        <input type="checkbox" name="subject" value="math"/>
+
+        <label for="subject">nepali</label>
+        <input type="checkbox" name="subject" value="nepali"/>
+
+        <label for="subject">Science</label>
+        <input type="checkbox" name="subject" value="science"/>
+
+        <label for="subject">English</label>
+        <input type="checkbox" name="subject" value="English"/>
+
+        <label for="subject">Accounting</label>
+        <input type="checkbox" name="subject" value="Accounting"/>
+
+        <label for="subject">Sports</label>
+        <input type="checkbox" name="subject" value="Sports"/>
+
+        <!-- Radio -->
+        <h4>Select any one</h4>
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" value="male"/>
+
+        <label for="gender">Female</label>
+        <input type="radio" name="gender" value="female"/>
+
+        <label for="gender">Other</label>
+        <input type="radio" name="gender" value="Other"/>   
+
+        <label for="college">Select a college</label>
+        <select id="college" name="college">
+            <option value="">--Select a college--</option>
+            <option value="cosmos">Cosmos</option>
+            <option value="KEC">KEC</option>
+            <option value="KMC">KMC</option>
+            <option value="Birat">Birat</option>
+        </select>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>
